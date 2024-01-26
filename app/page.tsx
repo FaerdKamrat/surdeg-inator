@@ -22,7 +22,7 @@ export default function Home() {
         <div className="recipe-input-container">
         <NumberInput 
           defaultValue={700} min={100} max={10000}
-          onChange={(number:number) => update(number)}
+          onChange={(number:any) => update(number)}
           value={flawor}
           size='lg' 
           maxW={80}
