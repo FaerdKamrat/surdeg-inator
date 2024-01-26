@@ -1,0 +1,54 @@
+
+
+.recipe-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    width: 100vh;
+    background-color: #49483e; /* Monokai Pro component background color */
+    border: 2px solid #75715e; /* Monokai Pro component border color */
+    border-radius: 8px;
+}
+.component-title {
+    color: #f8f8f2; /* Monokai Pro title color */
+    font-size: 1.5em;
+    margin-bottom: 20%;
+}
+.recipe-input-container {
+    display: flex;
+    flex-direction: row;
+}
+#flawor-text{
+    text-align: center;
+    font-size: smaller;
+    margin-left: 10%;
+
+}
+#inputNumber {
+    font-size: 25px;
+    text-align: center;
+    padding: 8px;
+    margin-bottom: 10px;
+    background-color: #282828; /* Monokai Pro input background color */
+    color: #f8f8f2; /* Monokai Pro input text color */
+    border: 1px solid #75715e; /* Monokai Pro input border color */
+    border-radius: 4px;
+}
+
+p {
+    margin: 5px 0;
+    font-size: 25px;
+}
+
+#output1 {
+    color: #f92672; /* Monokai Pro color for output 1 */
+}
+
+#output2 {
+    color: #66d9ef; /* Monokai Pro color for output 2 */
+}
+
+#output3 {
+    color: #a6e22e; /* Monokai Pro color for output 3 */
+}
